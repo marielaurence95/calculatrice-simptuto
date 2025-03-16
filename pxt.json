@@ -4,13 +4,15 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "servo": "*"
     },
     "files": [
         "main.blocks",
         "main.ts",
         "README.md",
-        "calculatricesimple.md"
+        "calculatricesimple.md",
+        "_locales/fr/calculatricesimple.md"
     ],
     "testFiles": [
         "test.ts"
