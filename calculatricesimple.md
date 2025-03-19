@@ -33,7 +33,7 @@ basic.forever(function () {
 ## Étape 3/3 - Effectuer les calculs avec le micro:bit
 Il y a plusieurs opérations possibles avec le Micro:Bit, nous utiliserons les 4 opérations de base (+,-,* et /).
 Dans le but de faire les 4 opérations, il faudra utiliser les blocs  ``||logic: Si ... alors, sinon||``. 
-Il faudra définir pour chacune des opérations la valeur de la variable opération doit prendre. Exemple : si opération =1 on fait une addition.
+Il faudra définir, pour chacune des opérations, une valeur. Quand la variable opération prendra cette valeur, l'opération +,-,* ou / sera sélectionnée. Exemple : si opération =1 on fait une addition.
 Laisse une trace dans ton document. 
 Utilise les blocs``||math: ... + ...||`` et le bloc ``||input:bouton A est pressé||`` pour démarrer cette partie du programme. 
 
@@ -54,14 +54,15 @@ input.onGesture(Gesture.Shake, function () {
 ```
 
 ## Étape 4/3 Bonus
-Pour déterminer s'il y a eu une erreur dans l'entré de données, remplace la pause par un dessin de ? dans le groupe de blocs de calculs.
+Pour déterminer s'il y a eu une erreur dans l'entrée de données, remplace la pause par un dessin de ? dans le groupe de blocs de calculs.
 Utilise ``|| basic: Montrer LEDs||`` 
 ```blocks
-basic.showLeds(`
+    basic.showLeds(`
     . # # . .
     # . . # .
     . . # . .
     . . . . .
     . . # . .
     `)
+
     ```
